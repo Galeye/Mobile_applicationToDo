@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">sherigCare</string>
-    <string name="login_mainActivity">Login</string>
-    <string name="forgot_passwordMainActivity">Forgot Password</string>
-    <string name="email_addressMainActivity">Email Address</string>
-    <string name="passwordMainActivity">Password</string>
-    <string name="registerMainActivity">Register</string>
-    <string name="adminmainactivity">Admin</string>
-</resources>
