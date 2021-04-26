@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TODO_II</string>
+    <string name="etext1">http://developers.android.com</string>
+    <string name="etext2">Golden Bridge</string>
+    <string name="etxt3">\'Twas brillig and the slithy toves</string>
+    <string name="open_websiteButton">open website</string>
+    <string name="open_locationButton">Open location</string>
+    <string name="share_this_textedit3">share this text</string>
+</resources>

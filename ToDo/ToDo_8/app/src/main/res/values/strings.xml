@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDo_8</string>
+    <string name="edittext1">http://developer.android.com</string>
+    <string name="edittext2">Golden Gate Bridge</string>
+    <string name="open_websiteButton">Open Website</string>
+    <string name="open_locationButton">Open Location</string>
+    <string name="share_this_textedit3">Share this text</string>
+</resources>
