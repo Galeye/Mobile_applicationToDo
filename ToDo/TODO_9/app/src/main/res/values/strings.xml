@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TODO_9</string>
+    <string name="addbtn">Add</string>
+    <string name="subbtn">Subtract</string>
+    <string name="mulbtn">Multiply</string>
+    <string name="divbtn">Divide</string>
+</resources>
