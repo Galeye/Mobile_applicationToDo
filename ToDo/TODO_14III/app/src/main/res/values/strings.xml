@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TODO_14III</string>
+    <string name="date">Hello World! Click on Date</string>
+    <string name="datebtn">Date</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
