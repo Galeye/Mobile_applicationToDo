@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TODO_17</string>
+    <string name="team_1">TEAM 1</string>
+    <string name="team_2">TEAM 2</string>
+    <string name="_0">0</string>
+    <string name="minusbutton">MinusButton</string>
+    <string name="addbutton">AddButton</string>
+    <string name="_0team2">0</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
+</resources>
