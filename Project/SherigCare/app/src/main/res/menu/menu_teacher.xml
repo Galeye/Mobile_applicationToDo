@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/changepword"
+        android:title="@string/change_passwordfrag"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/action_settings"
+        android:orderInCategory="20"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/report"
+        android:title="Report"
+        android:orderInCategory="30"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/createGroup"
+        android:title="@string/create_group"
+        android:icon="@drawable/ic_addgroup"
+        app:showAsAction="always"/>
+</menu>

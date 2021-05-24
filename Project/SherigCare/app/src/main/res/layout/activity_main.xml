@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mainID"
+        android:layout_width="339dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="196dp"
+        android:drawableEnd="@drawable/emailvector"
+        android:ems="10"
+        android:hint="@string/user_idMainAct"
+        android:inputType="textPersonName"
+        android:textColorHint="#7e7e7e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/mainlogin"
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/registerbuttonmainactivity"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/login_mainActivity"
+        android:onClick="login"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnermain" />
+
+    <EditText
+        android:id="@+id/mainPassword"
+        android:layout_width="337dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/lockvector"
+        android:ems="10"
+        android:hint="@string/passwordMainActivity"
+        android:inputType="textPersonName"
+        android:textColorHint="#7e7e7e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainID" />
+
+    <Spinner
+        android:id="@+id/spinnermain"
+        android:layout_width="141dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainPassword"
+        app:layout_constraintWidth_percent=".2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logosherig" />
+
+    <TextView
+        android:id="@+id/mainforgot"
+        android:layout_width="145dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:onClick="mainfpWord"
+        android:text="@string/forgot_passwordMainActivity"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainlogin" />
+
+    <TextView
+        android:id="@+id/loginas"
+        android:layout_width="184dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/loginasMain"
+        app:layout_constraintEnd_toStartOf="@+id/spinnermain"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
