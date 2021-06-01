@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TODO_25</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="itw_marks">ITW marks</string>
+    <string name="std_id">Std ID</string>
+    <string name="add_data">Add Data</string>
+    <string name="view_all">View All</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
